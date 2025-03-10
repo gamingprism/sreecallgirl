@@ -86,4 +86,9 @@ public class HomeController {
         return "redirect:/";
     }
 
+    @GetMapping("/write-for-us")
+    public String writeForUs(Model model) {
+        return "write-for-us";
+    }
+
 }
